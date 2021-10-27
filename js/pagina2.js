@@ -4,6 +4,6 @@ function addplayer(newPlayer) {
   userName.push(newPlayer);
 }
 
-function print(name, avatar) {
+function print(name) {
   document.getElementById("DOMcard");
 }
