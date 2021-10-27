@@ -4,7 +4,7 @@
 let userName = [""];
 let userImage = ["img.1", "img.2", "img.3"];
 
-// funcion para enviar nombres, datos, pushearlos al array
+// funcion para enviar "nombres/datos" pusheandolos al array
 function addplayer(newPlayer) {
   userName.push(newPlayer);
 }
