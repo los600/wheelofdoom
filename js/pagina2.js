@@ -20,7 +20,9 @@ function printInput() {
   let cardPlayer = document.getElementById("cardPlayer");
   let nombres = "";
   userName.forEach((item) => {
-    nombres += `<div>${item}</div>`;
+    nombres += `<div class="placaplayer">
+    <img src="./assets/images/pagina2main/placaPlayer.png">
+    <div class="placaInfo">${item} <img src="/assets/images/pagina2main/munster.jpg" alt=""></div></div>`; 
   });
   cardPlayer.innerHTML = nombres;
 }

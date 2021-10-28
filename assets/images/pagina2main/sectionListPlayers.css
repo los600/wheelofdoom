@@ -1,0 +1,72 @@
+body{
+    width: 428px; 
+    height: 926px; 
+    background-image: url("backgroundsmoke.png");
+    background-repeat: no-repeat;
+    color: white;
+   
+}
+
+.Insertplayer{
+    
+    width: 319px;
+    height: 42px;
+    left: 47px;
+    top: 205px;
+    background: rgba(255, 255, 255, 0.62);
+    border-radius: 5px;
+    color: white;
+}
+.title{
+    
+    font-size: 35px;
+    line-height: 84px;
+    color: #FFFFFF;
+    background: rgba(53, 78, 95, 0.58);
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.42), inset -2px -2px 4px rgba(255, 255, 255, 0.35);
+    border-radius: 5px; 
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    margin-bottom: 41px;
+    justify-content: flex-start;
+    display: flex;
+}
+/*dav*/
+    .placaplayer img{
+        background-color: rgba(255, 99, 71, 0.342);
+        position: absolute;
+        display: flex;
+    }
+    .placaInfo{
+    width: 100px;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    margin:20px;
+    margin-left: 80px;
+    padding: 20px;
+    }
+    .placaInfo img{
+    width: 56px;
+    margin-left: 60px; 
+    width: 52px;
+    height: 63px;
+    left: 266px;
+    top: 591px;
+    background: url(.png);
+    background-blend-mode: darken;
+    mix-blend-mode: multiply; 
+    }
+    .btn_start{
+    margin-top: 50px;
+    width: 338px;
+    height: 63px;
+    color:white;
+    background: rgba(24, 40, 63, 0.62);
+    box-shadow: 2px 2px 2px rgba(23, 34, 39, 0.72), -1px -1px 1px rgba(50, 65, 69, 0.68);
+    border-radius: 40px;
+    } 

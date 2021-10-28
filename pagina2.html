@@ -4,23 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="./css/headerp2.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Document</title>
 
   </head>
   <body>
     <header>
-        <div class="the 600">
-          <div class="Text">
-          </div>
+        <div class="title">the 600
         </div>
     </header>
     <main>
-      <div class="introduce the coder">introduce the coder:</div>
+      
       <div class="box input">
       <section class="nameInput">
         <label for="text">Enter player name:</label>
-        <input type="text" value="name" id="coderName" />
+        <input class="Insertplayer" type="text" value="name" id="coderName" />
         <button class="Submit" onclick="getValue()">Submit</button>
         <p>Number of deaths</p>
       </div>
@@ -33,7 +31,9 @@
 
       <section id="cardPlayer"></section>
     </main>
-    <footer></footer>
+    <footer>
+      <button class="btn_start">Start Kill</button> 
+    </footer>
     <script src="/js/pagina2.js"></script>
   </body>
 </html>
