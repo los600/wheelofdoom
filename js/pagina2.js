@@ -13,8 +13,10 @@ function getValue() {
  let inputId = document.getElementById("coderName");
  addplayer(inputId.value);
  console.log(userName);
-
 }
+/// print 
+
+
 //// funcion que recocrra el array
 
 
