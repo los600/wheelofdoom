@@ -1,6 +1,15 @@
 // Arrays:
+<<<<<<< HEAD
 
 let userImage = ["img.1", "img.2", "img.3"];
+=======
+let userName = [];
+let userImage = [
+  { img: "/assets/images/pagina2main/munster.jpg" },
+  { img: "/assets/images/pagina2main/pngalien.png" },
+  { img: "/assets/images/pagina2main/stranger.png" },
+];
+>>>>>>> b4870b736ade6dc3aa5805c2e3b880be5f0aeec8
 
 // funcion para enviar "nombres/datos" pusheandolos al array
 function addplayer(newPlayer) {
@@ -10,7 +19,7 @@ function addplayer(newPlayer) {
 function getValue() {
   let inputId = document.getElementById("coderName");
   addplayer(inputId.value);
-  console.log(userName);
+  inputId.value = "";
   printInput();
 }
 
@@ -20,14 +29,15 @@ function printInput() {
   let cardPlayer = document.getElementById("cardPlayer");
   let nombres = "";
   userName.forEach((item) => {
-    nombres += `<div>${item}</div>`;
+    nombres += `<div>${item} <img src="/assets/images/pagina2main/munster.jpg" alt=""></div>`;
   });
   cardPlayer.innerHTML = nombres;
 }
-/* printInput(); */
-
-/* function loadName() {
-  userName.forEach((coder) => printInput(coder));
-} */
-
-/* loadName(); */
+function imprimirImagen() {
+  let cardPlayer = document.getElementById("cardPlayer")
+  let fotos = 
+  userImage.for (let i = 0; i < userImage.length; i++) {
+    cardPlayer.innerHTML = fotos
+  }
+}
+imprimirImagen(0)
