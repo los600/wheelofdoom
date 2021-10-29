@@ -21,12 +21,12 @@ function printInput() {
   let nombres = "";
   userName.forEach((item) => {
     nombres += `<div class="placaplayer">
-    <img src="./assets/images/pagina2main/placaPlayer.png">
-    <div class="placaInfo">${item} <img src="/assets/images/pagina2main/munster.jpg" alt=""></div></div>`; 
+    <img src="./assets/images/pagina2main/placaplayer.png">
+    <div class="placaInfo">${item} <img src="./assets/images/pagina2main/stranger.png" alt=""></div>`; 
   });
   cardPlayer.innerHTML = nombres;
 }
-/* printInput(); */
+ printInput(); 
 
 /* function loadName() {
   userName.forEach((coder) => printInput(coder));
