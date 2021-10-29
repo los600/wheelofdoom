@@ -1,5 +1,5 @@
 // Arrays:
-let userName = [];
+
 let userImage = ["img.1", "img.2", "img.3"];
 
 // funcion para enviar "nombres/datos" pusheandolos al array
@@ -10,7 +10,7 @@ function addplayer(newPlayer) {
 function getValue() {
   let inputId = document.getElementById("coderName");
   addplayer(inputId.value);
-  console.log(userName);
+  inputId.value = "";
   printInput();
 }
 
@@ -20,14 +20,21 @@ function printInput() {
   let cardPlayer = document.getElementById("cardPlayer");
   let nombres = "";
   userName.forEach((item) => {
-    nombres += `<div>${item}</div>`;
+    nombres += `<div>${item} <img src="/assets/images/pagina2main/munster.jpg" alt=""></div>`;
   });
   cardPlayer.innerHTML = nombres;
 }
-/* printInput(); */
+function imprimirImagen() {
+  let cardPlayer = document.getElementById("cardPlayer")
+  let fotos = 
+  imgs.for (let i = 0; i < userImage.length; i++) {
+    cardPlayer.innerHTML = fotos
+  }
+}
+imprimirImagen(0)
+// let coderList =[
+//   {imagen:"./assets/images/pagina2main/pngalien.png"},
+//   {imagen:"./assets/images/pagina2main/images2.png"},
+//   {imagen:"./assets/images/pagina2main/stranger2.png"},
 
-/* function loadName() {
-  userName.forEach((coder) => printInput(coder));
-} */
-
-/* loadName(); */
+// ]
