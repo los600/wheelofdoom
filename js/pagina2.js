@@ -1,15 +1,6 @@
 // Arrays:
-<<<<<<< HEAD
 
 let userImage = ["img.1", "img.2", "img.3"];
-=======
-let userName = [];
-let userImage = [
-  { img: "/assets/images/pagina2main/munster.jpg" },
-  { img: "/assets/images/pagina2main/pngalien.png" },
-  { img: "/assets/images/pagina2main/stranger.png" },
-];
->>>>>>> b4870b736ade6dc3aa5805c2e3b880be5f0aeec8
 
 // funcion para enviar "nombres/datos" pusheandolos al array
 function addplayer(newPlayer) {
@@ -36,8 +27,14 @@ function printInput() {
 function imprimirImagen() {
   let cardPlayer = document.getElementById("cardPlayer")
   let fotos = 
-  userImage.for (let i = 0; i < userImage.length; i++) {
+  imgs.for (let i = 0; i < userImage.length; i++) {
     cardPlayer.innerHTML = fotos
   }
 }
 imprimirImagen(0)
+// let coderList =[
+//   {imagen:"./assets/images/pagina2main/pngalien.png"},
+//   {imagen:"./assets/images/pagina2main/images2.png"},
+//   {imagen:"./assets/images/pagina2main/stranger2.png"},
+
+// ]
