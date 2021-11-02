@@ -1,4 +1,4 @@
-// Arrays:
+ let userName = []
 
 let userImage = ["img.1", "img.2", "img.3"];
 
@@ -20,18 +20,22 @@ function printInput() {
   let cardPlayer = document.getElementById("cardPlayer");
   let nombres = "";
   userName.forEach((item) => {
-    nombres += `<div>${item} <img src="/assets/images/pagina2main/munster.jpg" alt=""></div>`;
+    nombres += `<div class="placaplayer">
+    <img src="./assets/images/pagina2main/placaplayer.png">
+    <div class="placaInfo">${item} <img src="./assets/images/pagina2main/stranger.png" alt=""></div>`; 
   });
+
+  };
   cardPlayer.innerHTML = nombres;
-}
+
 function imprimirImagen() {
   let cardPlayer = document.getElementById("cardPlayer")
   let fotos = 
   imgs.for (let i = 0; i < userImage.length; i++) {
     cardPlayer.innerHTML = fotos
   }
-}
-/* imprimirImagen(0)
+
+imprimirImagen(0)
 // let coderList =[
 //   {imagen:"./assets/images/pagina2main/pngalien.png"},
 //   {imagen:"./assets/images/pagina2main/images2.png"},
@@ -39,12 +43,12 @@ function imprimirImagen() {
     nombres += `<div class="placaplayer">
     <img src="./assets/images/pagina2main/placaplayer.png">
     <div class="placaInfo">${item} <img src="./assets/images/pagina2main/stranger.png" alt=""></div>`; 
-  });
+  
   cardPlayer.innerHTML = nombres;
-}
+
  printInput(); 
  
  function loadName() {
   userName.forEach((coder) => printInput(coder));
 } 
- ]
+ 
