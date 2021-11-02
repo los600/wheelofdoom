@@ -21,7 +21,7 @@ function printInput() {
   let nombres = "";
   userName.forEach((item) => {
     nombres += `<div class="placaplayer">
-    <img src="./assets/images/pagina2main/placaplayer.png">
+    <img src="/assets/images/pagina2main/placaplayer.png">
     <div class="placaInfo">${item} <img src="./assets/images/pagina2main/stranger.png" alt=""></div>`;
   });
   cardPlayer.innerHTML = nombres;
