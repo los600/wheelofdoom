@@ -5,7 +5,6 @@
 
 // ]
 
-
 // let userName = ['<img src="./assets/images/pagina2main/stranger.png"',
 //                 '<img src="./assets/images/pagina2main/images2.jpg.png"'];
 // function addImg() {
@@ -13,9 +12,7 @@
 //   console.log(userName)
 // }
 
-
 // console.log(userName)
-
 
 // let myImages = new Array (2)
 //   myImage[0]="./assets/images/pagina2main/images2.jpg",
