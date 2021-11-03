@@ -8,8 +8,7 @@ class Coder{
         this.nombre =name;
         this.monstruo = imgMonster;
         this.button = imgPlaca
-        
-
+       
         
     }
 
