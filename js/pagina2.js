@@ -1,11 +1,5 @@
 // Arrays:
 let userName = [];
-// let userImage = [ 
-//     {img1: "./assets/images/pagina2main/placaplayer.png"},
-//     {img: "./assets/images/pagina2main/pngalien.png"},
-//     {img: "./assets/images/pagina2main/stranger.png"}, 
-//     {img: "./assets/images/pagina2main/images2.png"},
-// ];
 let userImage = [ 
   '<img src="./assets/images/pagina2main/avatar.png">',
   '<img src="./assets/images/pagina2main/images2.png">',
