@@ -16,8 +16,8 @@ let userImage = [
 //                           [Object.keys(userImage)[Math.floor(Math.random()*Object.keys(userImage).length)]]];
 // // console.log(randomItem);
 // let randomImage = userImage[Object.keys(userImage)[Math.floor(Math.random()*Object.keys(userImage).length)]];
-let randomImage = userImage[Math.floor(Math.random()*userImage.length)];
-console.log(randomImage);
+// let randomImage = userImage[Math.floor(Math.random()*userImage.length)];
+// console.log(randomImage);
 // console.log(userImage[Object.keys(userImage)[Math.floor(Math.random()*Object.keys(userImage).length)]]);
 
 
@@ -56,12 +56,14 @@ function getValue() {
 function printInput() {
   let cardPlayer = document.getElementById("cardPlayer");
   let nombres = "";
-  let randomImage = userImage[Math.floor(Math.random()*userImage.length)];
-  userName.forEach((item) => {
-    
+  // let randomImage = userImage[Math.floor(Math.random()*userImage.length)];
+  
+  userName.forEach((item, randomMonster) => {
+    let randomImage = userImage[Math.floor(Math.random()*userImage.length)];
+    randomMonster = randomImage;
     nombres += `<div class="placaplayer">
     <img src="./assets/images/pagina2main/placaplayer.png">
-    <div class="placaInfo">${item}>${randomImage}</div></div>`; 
+    <div class="placaInfo">${item}>${randomMonster}</div></div>`; 
   });
   cardPlayer.innerHTML = nombres ;
   console.log(cardPlayer.innerHTML);
