@@ -52,7 +52,8 @@ function printInput() {
     randomMonster = randomImage;
     nombres += `<div class="placaplayer">
     <img src="./assets/images/pagina2main/placaplayer.png">
-    <div class="placaInfo">${item}>${randomMonster}</div></div>`; 
+    <div class="placaInfo">${item}${randomMonster}</div></div>&nbsp;&nbsp;&nbsp;&nbsp;
+    `; 
   });
   cardPlayer.innerHTML = nombres ;
   console.log(cardPlayer.innerHTML);
