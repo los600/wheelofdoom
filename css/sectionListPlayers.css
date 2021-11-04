@@ -58,8 +58,22 @@ display: flex;
   border-radius: 10px;
 }
 .btn_start2 {
-  margin: 0%;
-  width: 351px;
-  color: white;
-  background: rgba(24, 40, 63, 0.62);
-  box-shadow: 2px 2px 2px rgb(23 34 39 / 72%), -1px -1px 1px rgb(50 65 69
+    margin: 0%;
+    width: 351px;
+    color: white;
+    background: rgba(24, 40, 63, 0.62);
+    box-shadow: 2px 2px 2px rgb(23 34 39 / 72%), -1px -1px 1px rgb(50 65 69 / 68%);
+    border-radius: 40px;
+  }
+  
+  #DOMkill{
+    display: flex;
+  }
+  
+  .nextPg{
+    width: 34px;
+    height: 44px;
+    margin: 437px;
+  }
+  
+  
