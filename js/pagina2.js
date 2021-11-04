@@ -6,11 +6,13 @@ let userImage = ["img.1", "img.2", "img.3"];
 function addplayer(newPlayer) {
   userName.push(newPlayer);
 }
+
 // funcion para obtener valores desde el input atraves del ID del input.
 function getValue() {
   let inputId = document.getElementById("coderName");
   addplayer(inputId.value);
-  console.log(userName);
+  inputId.value="";
+  
   printInput();
 }
 
@@ -22,14 +24,31 @@ function printInput() {
   userName.forEach((item) => {
     nombres += `<div class="placaplayer">
     <img src="/assets/images/pagina2main/placaplayer.png">
-    <div class="placaInfo">${item} <img src="./assets/images/pagina2main/stranger.png" alt=""></div>`;
+    <div class="placaInfo">${item} <img src="./assets/images/pagina2main/stranger.png"></div> &nbsp;&nbsp;&nbsp;&nbsp;`;
   });
   cardPlayer.innerHTML = nombres;
 }
 printInput();
 
-/* function loadName() {
-  userName.forEach((coder) => printInput(coder));
-} */
+// sacar selección jugador muerto
 
-/* loadName(); */
+function randomKill() {
+  let selectdeath = Math.round(Math.random() * userName.length);
+  console.log("a ver que hay: " + userName);
+  console.log(userName[selectdeath]);
+
+//imprime seleccionado molón
+  let DOMkill = document.getElementById("DOMkill");
+  DOMkill.innerHTML = `<p> 🔥 
+  Your time to die has come: &nbsp;&nbsp; <p>${userName[selectdeath]}</p> </p>`
+
+}
+
+
+
+
+
+function changeColor() {
+  let DOMred = document.getElementById("DOMred");
+  DOMred.classList.toggle("selectKill");
+}

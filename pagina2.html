@@ -8,31 +8,38 @@
     <title>Document</title>
 
   </head>
-  <body>
-    <header>
-        <div class="title">the 600
-        </div>
-    </header>
-    <main>
+    <body>
       
-      <div class="box input">
-      <section class="nameInput">
-        <label for="text">Enter player name:</label>
-        <input class="Insertplayer" type="text" value="name" id="coderName" />
-        <button class="Submit" onclick="getValue()">ADD</button>
-      
-      </div>
-      </section>
+          <main>
+            <div class="backgroundPg2">
+              <img  src="./assets/images/pg2.png" alt="">
+            </div>
 
-      <section class="deathNumber">
-        <label for="text">Number of deaths</label>
-        <input type="number" value="0" id="numberDeath" />
-      </section>
-      <section id="cardPlayer"></section>
-    </main>
-    <footer>
-      <button class="btn_start">Start Kill</button> 
-    </footer>
-    <script src="/js/pagina2.js"></script>
+            
+            <div class="mainPg2">
+                  <section class="nameInput">
+                    <label for="text">Enter player name:</label>
+                    <div class="containerInput">
+                      <input class="Insertplayer" type="text" value="Player" id="coderName" />
+                      <button class="btn_add" onclick="getValue()">ADD</button>
+                    </div>
+            <div id="DOMkill"></div>
+                  </section>
+      
+                 
+      
+                  <section id="cardPlayer"></section>
+      
+                  <button onclick ="randomKill()" class="btn_start2">Start Kill</button>   
+                  
+            </div>
+            <button class="nextPg" onclick="window.location.href='/pagina3.html'">*</button>
+              
+          </main>
+          
+           
+          
+          <script src="/js/pagina2.js"></script>
+    </div>
   </body>
 </html>

@@ -1,37 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
 
-bodyd {
-  width: 428px;
-  height: 926px;
-  position: relative;
-  background: url(/assets/images/background1.jpg);
-  background-repeat: no-repeat;
-  font-family: "Rock Salt", cursive;
-}
-
-.header1 {
-  color: #ffffff;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 84px;
-  width: 404px;
-  height: 92px;
-  text-align: center;
-  background: rgba(53, 78, 95, 0.58);
-  box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.42),
-    inset -2px -2px 4px rgba(255, 255, 255, 0.35);
-  border-radius: 5px;
-}
 
 button {
-  width: 338px;
+  position: relative;
+  margin-left: 19px;
+  margin-top: 50rem;
+  width: 368px;
   height: 63px;
   background: rgba(22, 39, 47, 0.77);
-  box-shadow: 2px 2px 2px rgba(23, 34, 39, 0.72),
-    -1px -1px 1px rgba(50, 65, 69, 0.68);
+  box-shadow: 2px 2px 2px rgb(23 34 39 / 72%), -1px -1px 1px rgb(50 65 69 / 68%);
   border-radius: 40px;
   font-family: "Rock Salt", cursive;
   font-size: 20px;
   line-height: 48px;
   color: #ffffff;
+}
+
+div img{
+  position: absolute;
 }
