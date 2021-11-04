@@ -16,7 +16,11 @@ let userImage = [
 //                           [Object.keys(userImage)[Math.floor(Math.random()*Object.keys(userImage).length)]]];
 // // console.log(randomItem);
 // let randomImage = userImage[Object.keys(userImage)[Math.floor(Math.random()*Object.keys(userImage).length)]];
+
+///random array
 // let randomImage = userImage[Math.floor(Math.random()*userImage.length)];
+
+
 // console.log(randomImage);
 // console.log(userImage[Object.keys(userImage)[Math.floor(Math.random()*Object.keys(userImage).length)]]);
 
@@ -27,15 +31,7 @@ let userImage = [
 // // Random Value
 // console.log(animals[Object.keys(animals)[Math.floor(Math.random()*Object.keys(animals).length)]]);
 
-
-
-
-
 ////////////////////////-------------------------////////////////////////////////////////////////////////////////
-
-
-
-
 
 // funcion para enviar "nombres/datos" pusheandolos al array
 function addplayer(newPlayer) {
@@ -50,7 +46,6 @@ function getValue() {
 
   printInput();
 }
-
 // función que imprima el valor del input en DOM (html)
 
 function printInput() {
@@ -69,16 +64,11 @@ function printInput() {
   console.log(cardPlayer.innerHTML);
  
 }
-
 function randonImages(){
   
 }
-
-
  printInput(); 
- 
-
-/* function loadName() {
+ /* function loadName() {
   userName.forEach((coder) => printInput(coder));
 } */
 
